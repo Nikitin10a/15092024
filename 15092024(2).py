@@ -1,0 +1,11 @@
+print("введите первую точку")
+x1 = float(input("X: "))
+y1 = float(input("Y: "))
+print("введите вторую точку")
+x2 = float(input("X: "))
+y2 = float(input("Y: "))
+k = (y2 - y1) / (x2 - x1)
+print(k)
+b = y2 - k * x2
+print(b)
+print("y = ", k, " * x + ",b)
